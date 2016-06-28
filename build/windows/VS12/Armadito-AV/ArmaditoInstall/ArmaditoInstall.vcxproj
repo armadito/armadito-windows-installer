@@ -18,11 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\libarmadito\libarmadito.vcxproj">
-      <Project>{8a108a73-1029-45c1-ac8d-993025690cb2}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{20B9FF61-1FD6-40E2-8837-B0A19D36CD69}</ProjectGuid>
     <RootNamespace>ArmaditoInstall</RootNamespace>

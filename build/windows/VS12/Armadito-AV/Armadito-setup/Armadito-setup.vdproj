@@ -153,12 +153,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_33576B0261484D31AC2167EE2EE9C6FE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_339ABAB72BC84056B118999D5AD0764B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -555,12 +549,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C3C49575AE2A4C2D975E93DDFE1920F7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C44918BF85C04438A482AF0895E0850F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -785,7 +773,7 @@
             {
             "Name" = "8:Primary Output from ArmaditoSvc (Active)"
             "Condition" = "8:"
-            "Object" = "8:_C3C49575AE2A4C2D975E93DDFE1920F7"
+            "Object" = "8:"
             "FileType" = "3:2"
             "InstallAction" = "3:4"
             "Arguments" = "8:--uninstall"
@@ -827,7 +815,7 @@
             {
             "Name" = "8:Primary Output from ArmaditoSvc (Active)"
             "Condition" = "8:"
-            "Object" = "8:_C3C49575AE2A4C2D975E93DDFE1920F7"
+            "Object" = "8:"
             "FileType" = "3:2"
             "InstallAction" = "3:2"
             "Arguments" = "8:--start"
@@ -841,7 +829,7 @@
             {
             "Name" = "8:Primary Output from ArmaditoSvc (Active)"
             "Condition" = "8:"
-            "Object" = "8:_C3C49575AE2A4C2D975E93DDFE1920F7"
+            "Object" = "8:"
             "FileType" = "3:2"
             "InstallAction" = "3:3"
             "Arguments" = "8:--uninstall"
@@ -855,7 +843,7 @@
             {
             "Name" = "8:Primary Output from ArmaditoSvc (Active)"
             "Condition" = "8:"
-            "Object" = "8:_C3C49575AE2A4C2D975E93DDFE1920F7"
+            "Object" = "8:"
             "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:--installboot"
@@ -3807,37 +3795,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_33576B0261484D31AC2167EE2EE9C6FE"
-            {
-            "SourcePath" = "8:..\\Release\\libarmadito.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_93AE649AF8DA4D24B5C52546E2401D4C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{8A108A73-1029-45C1-AC8D-993025690CB2}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5AE6723470834DF5AA556757C0F5F46D"
             {
-            "SourcePath" = "8:..\\Release\\ArmaditoGuard-setup.exe"
+            "SourcePath" = "8:..\\Debug\\ArmaditoGuard-setup.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_AF7056AA2E394D968C21EA2094286DA9"
@@ -3858,34 +3818,6 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{52134D0B-97DB-4A4F-B30B-B5ABAB1560D9}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C3C49575AE2A4C2D975E93DDFE1920F7"
-            {
-            "SourcePath" = "8:..\\Release\\ArmaditoSvc.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_93AE649AF8DA4D24B5C52546E2401D4C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{B7A4D2B8-9E32-4007-9F90-9E4283E66208}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
